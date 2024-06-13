@@ -15,15 +15,15 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Điện áp hoạt động: 5VDC
 - Chuẩn giao tiếp: Digital
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
-    Dòng điện hoạt động: 65mA
-    Tần số hoạt động: 40Khz
-    Khoảng cách đo được: 3-200cm
-    Góc quét: 15°
-    Tín hiệu ngõ vào Trigger: 10μs TTL pulse
-    Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
-    Bổ sung thêm các thiết kế ổn định, chống nhiễu.
-    Chuẩn kết nối: connector XH2.54 4Pins
-    Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
+- Dòng điện hoạt động: 65mA
+- Tần số hoạt động: 40Khz
+- Khoảng cách đo được: 3-200cm
+- Góc quét: 15°
+- Tín hiệu ngõ vào Trigger: 10μs TTL pulse
+- Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
+- Bổ sung thêm các thiết kế ổn định, chống nhiễu.
+- Chuẩn kết nối: connector XH2.54 4Pins
+- Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 ## Hình ảnh bộ kit
 ![ciaobot main](/image/ciaobot1.png)
 ## Các thành phần có trong bộ kit
