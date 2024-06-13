@@ -1,13 +1,29 @@
-# CiaoBot
-CiaoBot là một sản phẩm của MakerLab giúp bạn tự DIY một chiếc máy chào khách với những ưu điểm vượt trội so với hầu hết các loại máy chào khách chỉ kêu "kính cong" đơn điệu trên thị trường.
-## Các ưu điểm của CiaoBot
+# Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor
+## Giới thiệu
+Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor sử dụng sóng siêu âm để đo khoảng cách đến vật cản từ 3~200cm, cảm biến sử dụng IC xử lý, thạch anh chất lượng tốt cho độ bền, độ ổn định và độ chính xác cao, thích hợp để làm các loại robot tránh vật cản, chống trộm, đo khoảng cách,...
 
-- Vì đây là một bộ kit theo hướng DIY nên chương trình sẽ được cung cấp để các bạn có thể tùy chỉnh, hỗ trợ Arduino (code C) và mBlock (kéo thả khối), giúp bạn có thể tùy biến, bổ sung các chức năng mong muốn.
-- Âm thanh máy chào (như "MakerLab xin chào" / "MakerLab tạm biệt") là dạng *.mp3 có thể thay đổi dễ dàng qua thẻ nhớ đi kèm.
-- Sử dụng 2 cảm biến vật cản quang học chất lượng cao giúp phát hiện chiều ra / vào.
-- Tích hợp màn hình LCD hiển thị thông tin như số lượt checkin, dung lượng phòng (capacity).
-- Cấp nguồn an toàn qua cổng USB-C sử dụng sạc điện thoại hoặc pin dự phòng.
+Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát sóng siêu âm từ mắt phát T (Transmitter) đến vật cản, sóng siêu âm khi đó sẽ bị phản xạ lại và truyền tới mắt thu R (Receiver), ghi nhận khoảng thời gian t quá trình này xảy ra bằng mạch xử lý kết hợp với vận tốc xác định của sóng siêu âm ta có thể tính được khoảng cách tương đối chính xác đến vật cản theo công thức:
+## Nguyên lý hoạt động
+Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc sóng siêu âm) / 2
+Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
+Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
 
+Để tăng độ chính xác và giảm nhiễu, sóng siêu âm sẽ được mắt phát T (Transmitter) phát ra theo tần số chuyên biệt để không bị nhiễu với các loại sóng khác của môi trường, phương pháp đo khoảng cách bằng cảm biến siêu âm tương đối chính xác và ổn định, tuy nhiên vẫn có một nhược điểm của phương pháp này là phụ thuộc vào hình dạng của vật thể phản xạ, vật thể có bề mặt không phẳng sẽ làm ảnh hưởng đến độ phản xạ của sóng siêu âm dẫn đến kết quả đo kém chính xác. 
+
+## Thông số kỹ thuật
+- Điện áp hoạt động: 5VDC
+- Chuẩn giao tiếp: Digital
+- Điện áp giao tiếp: TTL 3.3VDC / 5VDC
+    Dòng điện hoạt động: 65mA
+    Tần số hoạt động: 40Khz
+    Khoảng cách đo được: 3-200cm
+    Góc quét: 15°
+    Tín hiệu ngõ vào Trigger: 10μs TTL pulse
+    Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
+    Bổ sung thêm các thiết kế ổn định, chống nhiễu.
+    Chuẩn kết nối: connector XH2.54 4Pins
+    Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 ## Hình ảnh bộ kit
 ![ciaobot main](/image/ciaobot1.png)
 ## Các thành phần có trong bộ kit
