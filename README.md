@@ -32,6 +32,7 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 > - TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
 > - ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
 
+
 ## Hướng dẫn sử dụng
 
 ### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield for Arduino (Code C)
