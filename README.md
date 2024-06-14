@@ -26,10 +26,10 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 ## Hình ảnh sản phẩm
 ## Các chân tín hiệu
-> -GND:	Chân cấp nguồn âm 0VDC
-> -5V:	Chân cấp nguồn dương 5VDC
-> -TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
-> -ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
+> - GND:	Chân cấp nguồn âm 0VDC
+> - 5V:	Chân cấp nguồn dương 5VDC
+> - TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
+> - ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
 ## Hướng dẫn sử dụng
 ### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield for Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
