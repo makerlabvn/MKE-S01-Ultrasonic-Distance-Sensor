@@ -27,7 +27,7 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 ## Hình ảnh sản phẩm
 ## Các chân tín hiệu
 ## Hướng dẫn sử dụng
-### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield (Code C)
+### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield for Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
 - Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-S01_Ultrasonic hoặc [tải chương trình mẫu tại đây](/arduino)
@@ -38,6 +38,7 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
 - Mở [chương trình mẫu tại đây](/mBlock5), kết nối mạch và nạp chương trình.
+### Hướng dẫn lập trình với Makecode sử dụng Micro:bit và MakerEdu Shield for Micro:bit (kéo thả khối)
 ## Hỗ trợ và liên hệ:
 - Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
 - Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn)
