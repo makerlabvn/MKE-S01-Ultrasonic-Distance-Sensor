@@ -58,15 +58,22 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
 - Mở [chương trình mẫu tại đây](/mBlock5), kết nối mạch và nạp chương trình.
 - Kết nối cảm biến với cổng [D12,13] trên MakerEdu Creator, mở trên phần mềm mblock để thấy chương trình hoạt động.
+
+
 ### Hướng dẫn lập trình với Makecode sử dụng Micro:bit và MakerEdu Shield for Micro:bit (kéo thả khối)
+
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode và tham khảo các khối chức năng theo hướng dẫn.
 - Tham khảo cách kết nối và nạp chương trình cho Micro:bit trên máy tính hoặc điện thoại, máy tính bảng.
 Chương trình mẫu:
 - icro:Bit đọc liên tục giá trị khoảng cách từ cảm biến siêu âm, với chu kỳ mỗi 0,5s.
 - Sau đó cho hiển thị giá trị lên màn hình LCD, với đơn vị (cm).
+
 ## Hỗ trợ và liên hệ:
+
 - Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
 - Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn)
+
 ## Nhà phân phối
+
 - Các bạn có thể mua sản phẩm tại các [nhà phân phối của MakerLab](https://www.makerlab.vn/nha-phan-phoi/).
