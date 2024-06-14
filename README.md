@@ -24,18 +24,15 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: connector XH2.54 4Pins
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
-## Hình ảnh bộ kit
-![ciaobot main](/image/ciaobot1.png)
-## Các thành phần có trong bộ kit
-![ciaobot inside](/image/ciaobot2.png)
+## Hình ảnh sản phẩm
+## Các chân tín hiệu
 ## Hướng dẫn sử dụng
-### Giới thiệu
-[![Ciaobot introduce](/image/introduce.png)](https://www.youtube.com/watch?v=pvLTHNnOPeM)
-### Hướng dẫn lắp ráp
-[![Ciaobot assembly](/image/assembly.png)](https://www.youtube.com/watch?v=QY7m3F5WTkc)
-### Cài đặt Driver
-Mạch điều khiển trung tâm MakerEdu Creator sử dụng Driver giao tiếp máy tính CH340 sẽ tự động nhận Driver trên các hệ điều hành Windows / MacOS / Linux, tuy nhiên nếu không nhận cổng COM của mạch bạn vẫn có thể [tải và cài đặt Driver cho CH340 tại đây.](https://www.mediafire.com/file/fsem9mtf5yl56q6/[MakerLab.vn]+CH340+Driver+WinMacLinux.zip/file)
-### Hướng dẫn lập trình với mBlock (kéo thả khối)
+### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield (Code C)
+- Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
+- Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
+- Mở chương trình mẫu tại File / Examples / MAKERLABVN / Kit / CiaoBot hoặc [tải chương trình mẫu tại đây](/arduino)
+- Chọn board là Arduino Uno (mạch MakerEdu Creator tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
+### Hướng dẫn lập trình với mBlock sử dụng MakerEdu Creator (kéo thả khối)
 >- Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
 >- Thêm Device "MakerEdu Creator" by MakerEduVN
 >- Thêm Extension "Upload Mode Broadcast" by mBlock Official
