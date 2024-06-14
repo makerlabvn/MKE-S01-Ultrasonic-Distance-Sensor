@@ -35,14 +35,22 @@ Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản b
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
 - Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-S01_Ultrasonic hoặc [tải chương trình mẫu tại đây](/arduino)
-- Chọn board là Arduino Uno (mạch MakerEdu Creator tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
+- Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
+- Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [D12,13] trên MakerEdu Shield, bật Serial Monitor trên phần mềm Arduino (Baudrate: 115200) để thấy chương trình hoạt động.
 ### Hướng dẫn lập trình với mBlock sử dụng MakerEdu Creator (kéo thả khối)
 - Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
 - Thêm Device "MakerEdu Creator" by MakerEduVN
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
 - Mở [chương trình mẫu tại đây](/mBlock5), kết nối mạch và nạp chương trình.
+- Kết nối cảm biến với cổng [D12,13] trên MakerEdu Creator, mở trên phần mềm mblock để thấy chương trình hoạt động.
 ### Hướng dẫn lập trình với Makecode sử dụng Micro:bit và MakerEdu Shield for Micro:bit (kéo thả khối)
+- Khởi động phần mềm MakeCode theo hướng dẫn.
+- Cài đặt Extension MakerEdu Hardware trên MadeCode và tham khảo các khối chức năng theo hướng dẫn.
+- Tham khảo cách kết nối và nạp chương trình cho Micro:bit trên máy tính hoặc điện thoại, máy tính bảng.
+Chương trình mẫu:
+- icro:Bit đọc liên tục giá trị khoảng cách từ cảm biến siêu âm, với chu kỳ mỗi 0,5s.
+- Sau đó cho hiển thị giá trị lên màn hình LCD, với đơn vị (cm).
 ## Hỗ trợ và liên hệ:
 - Website: [https://www.makerlab.vn/](https://www.makerlab.vn/)
 - Facebook: [https://www.facebook.com/makerlabvn](https://www.facebook.com/makerlabvn)
