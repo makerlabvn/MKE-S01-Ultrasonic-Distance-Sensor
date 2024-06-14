@@ -56,18 +56,18 @@ Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc són
 #### Arduino:
 - [Mạch Vietduino Uno (Arduino Uno Compatible)](https://github.com/makerlabvn/Vietduino-Uno)
 - [Mạch MakerEdu Shield for Arduino](https://github.com/makerlabvn/MakerEdu-Shield-for-Arduino)
-- [Mạch màn hình LCD1602 I2C](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
+- [Mạch màn hình LCD1602 I2C Display Module](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
 
 #### mBlock:
 
 - [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://github.com/makerlabvn/MakerEdu-Creator)
-- [Mạch màn hình LCD1602 I2C](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
+- [Mạch màn hình LCD1602 I2C Display Module](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
 
 #### Micro:bit:
 
 - Mạch Micro:bit V2 hoặc các phiên bản tương thích.
 - [Mạch MakerEdu Shield for Micro:bit](https://github.com/makerlabvn/MakerEdu-Shield-for-Microbit)
-- [Mạch màn hình LCD1602 I2C](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
+- [Mạch màn hình LCD1602 I2C Display Module](https://github.com/makerlabvn/MKE-M07-LCD1602-I2C-Display-Module)
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
