@@ -8,11 +8,11 @@ Cảm biến siêu âm MKE-S01 Ultrasonic Distance Sensor thuộc hệ sinh thá
 Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát sóng siêu âm từ mắt phát T (Transmitter) đến vật cản, sóng siêu âm khi đó sẽ bị phản xạ lại và truyền tới mắt thu R (Receiver), ghi nhận khoảng thời gian t quá trình này xảy ra bằng mạch xử lý kết hợp với vận tốc xác định của sóng siêu âm ta có thể tính được khoảng cách tương đối chính xác đến vật cản theo công thức:
 
 ## Nguyên lý hoạt động
-![MKE_S01_Ultrasonic_4](/image/MKE_S01_Ultrasonic_4.JPG)
+
 - Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc sóng siêu âm) / 2
 - Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
 - Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
-
+![MKE_S01_Ultrasonic_3](/image/MKE_S01_Ultrasonic_3.jpg)
 Để tăng độ chính xác và giảm nhiễu, sóng siêu âm sẽ được mắt phát T (Transmitter) phát ra theo tần số chuyên biệt để không bị nhiễu với các loại sóng khác của môi trường, phương pháp đo khoảng cách bằng cảm biến siêu âm tương đối chính xác và ổn định, tuy nhiên vẫn có một nhược điểm của phương pháp này là phụ thuộc vào hình dạng của vật thể phản xạ, vật thể có bề mặt không phẳng sẽ làm ảnh hưởng đến độ phản xạ của sóng siêu âm dẫn đến kết quả đo kém chính xác. 
 
 ## Thông số kỹ thuật
