@@ -12,7 +12,8 @@ Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát 
 - Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc sóng siêu âm) / 2
 - Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
 - Minh họa sóng siêu âm từ phát phát T (Transmitter) đến vật cản bị phản xạ lại và truyền tới mắt thu R (Receiver).
-![MKE_S01_Ultrasonic_3](/image/MKE_S01_Ultrasonic_3.jpg)
+![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_3.jpg)
+
 Để tăng độ chính xác và giảm nhiễu, sóng siêu âm sẽ được mắt phát T (Transmitter) phát ra theo tần số chuyên biệt để không bị nhiễu với các loại sóng khác của môi trường, phương pháp đo khoảng cách bằng cảm biến siêu âm tương đối chính xác và ổn định, tuy nhiên vẫn có một nhược điểm của phương pháp này là phụ thuộc vào hình dạng của vật thể phản xạ, vật thể có bề mặt không phẳng sẽ làm ảnh hưởng đến độ phản xạ của sóng siêu âm dẫn đến kết quả đo kém chính xác. 
 
 ## Thông số kỹ thuật
@@ -32,13 +33,20 @@ Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát 
 
 ## Hình ảnh sản phẩm
 
+![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_1.jpg)
+
+![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_2.jpg)
+
+## Kích thước sản phẩm
+
+![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_4.jpg)
+
 ## Các chân tín hiệu
 
 > - GND:	Chân cấp nguồn âm 0VDC
 > - 5V:	Chân cấp nguồn dương 5VDC
 > - TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
 > - ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
-
 
 ## Hướng dẫn sử dụng
 
