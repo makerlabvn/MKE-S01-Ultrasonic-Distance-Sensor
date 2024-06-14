@@ -43,31 +43,49 @@ Cảm biến siêu âm đo khoảng cách đến vật cản bằng cách phát 
 
 ## Các chân tín hiệu
 
-> - GND:	Chân cấp nguồn âm 0VDC
-> - 5V:	Chân cấp nguồn dương 5VDC
-> - TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
-> - ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
+- GND:	Chân cấp nguồn âm 0VDC
+- 5V:	Chân cấp nguồn dương 5VDC
+- TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
+- ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
 
 ## Hướng dẫn sử dụng
 
-### Hướng dẫn sử dụng với Arduino sử dụng Vietduino Uno và MakerEdu Shield for Arduino (Code C)
+### Các thiết bị sử dụng trong bài hướng dẫn:
+
+#### Arduino:
+- Mạch Vietduino Uno (Arduino Uno Compatible)
+- Mạch MakerEdu Shield for Arduino
+- Mạch màn hình LCD1602 I2C
+
+#### mBlock:
+
+- Mạch MakerEdu Creator (Arduino Uno Compatible)
+- Mạch màn hình LCD1602 I2C
+
+#### Micro:bit:
+
+- Mạch Micro:bit V2 hoặc các phiên bản tương thích.
+- Mạch MakerEdu Shield for Micro:bit
+- Mạch màn hình LCD1602 I2C
+
+### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
 - Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-S01_Ultrasonic hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
-- Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [D12,13] trên MakerEdu Shield, bật Serial Monitor trên phần mềm Arduino (Baudrate: 115200) để thấy chương trình hoạt động.
+- Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [D12,13] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
-### Hướng dẫn lập trình với mBlock sử dụng MakerEdu Creator (kéo thả khối)
+### Hướng dẫn lập trình với mBlock (kéo thả khối)
 
 - Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
 - Thêm Device "MakerEdu Creator" by MakerEduVN
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
 - Mở [chương trình mẫu tại đây](/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
-- Kết nối cảm biến với cổng [D12,13] trên MakerEdu Creator, mở trên phần mềm mblock để thấy chương trình hoạt động.
+- Kết nối cảm biến với cổng [D12,13] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
 
 
-### Hướng dẫn lập trình với Makecode sử dụng Micro:bit & MakerEdu Shield for Micro:bit & Màn hình LCD I2C (kéo thả khối)
+### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode theo đường link sau: [https://github.com/makerlabvn/MakerEdu_Hardware](https://github.com/makerlabvn/MakerEdu_Hardware)
