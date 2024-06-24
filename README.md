@@ -101,4 +101,4 @@ Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc són
 
 ## Nhà phân phối
 
-- Các bạn có thể mua sản phẩm tại các [nhà phân phối của MakerLab](https://www.makerlab.vn/nha-phan-phoi/).
+- Các bạn có thể mua sản phẩm của MakerLab tại các [Nhà Phân Phối.](https://www.makerlab.vn/distributor/)
