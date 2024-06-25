@@ -55,7 +55,7 @@ Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc són
 
 #### Arduino:
 - [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
-- [Mạch MakerEdu Shield for Arduino](https://www.makerlab.vn/arduinosd)
+- [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
 - [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
 
 #### mBlock:
