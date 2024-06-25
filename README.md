@@ -54,19 +54,19 @@ Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc són
 ### Các thiết bị sử dụng trong bài hướng dẫn:
 
 #### Arduino:
-- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vietduinouno)
-- [Mạch MakerEdu Shield for Arduino](https://www.makerlab.vn/makeredushieldarduino)
+- [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
+- [Mạch MakerEdu Shield for Arduino](https://www.makerlab.vn/arduinosd)
 - [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
 
 #### mBlock:
 
-- [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/makereducreator)
+- [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/creator)
 - [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
 
 #### Micro:bit:
 
 - Mạch Micro:bit V2 hoặc các phiên bản tương thích.
-- [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/makeredushieldmicrobit)
+- [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
 - [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
