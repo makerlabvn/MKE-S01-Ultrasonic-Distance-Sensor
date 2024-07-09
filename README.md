@@ -20,6 +20,7 @@ Khoảng cách đến vật cản L = (khoảng thời gian t * vận tốc són
 
 ## Thông số kỹ thuật
 
+- Model: MKE-S01
 - Điện áp hoạt động: 5VDC
 - Chuẩn giao tiếp: Digital
 - Điện áp giao tiếp: TTL 3.3VDC / 5VDC
