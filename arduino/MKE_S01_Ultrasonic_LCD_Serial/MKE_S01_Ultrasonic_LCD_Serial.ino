@@ -13,6 +13,10 @@ MKL_LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define TRIG_PIN 13
 MKL_HCSR04 ultra(TRIG_PIN, ECHO_PIN);
 
+// Tạo biến số nguyên lưu giá trị cảm biến
+// value read from the pot
+int sensorValue = 0;  
+
 void setup()
 {
   // Khởi động LCD
@@ -27,19 +31,22 @@ void setup()
 
 void loop()
 {
-  //Gửi giá trị khoảng cách lên LCD
-  //Show the sensor value on LCD
-  lcd.setCursor(4,0);
-  lcd.print("Distance");
-  lcd.setCursor(4,1);
-  lcd.print(ultra.dist());
-  lcd.setCursor(10,1);
-  lcd.print("cm");
+    // Đọc giá trị cảm biến
+  // read the analog in value:
+  sensorValue = ultra.dist();
 
-  // Truyền khoảng cách đo được của cảm biến siêu âm lên máy tính.
+  //Gửi giá trị cảm biến lên LCD
+  //Show the sensor value on LCD
+  lcd.setCursor(1,0);
+  lcd.print("Distance");
+  lcd.setCursor(1,1);
+  lcd.print(sensorValue);
+  lcd.print("cm   ");
+
+  // Truyền giá trị lên máy tính qua Serial Monitor
   // Show the sensor value on Arduno Serial Monitor
   Serial.print("Distance in cm: ");
-  Serial.println(ultra.dist());
+  Serial.println(sensorValue);
   
   // Chờ 500ms
   // Wait 500ms
