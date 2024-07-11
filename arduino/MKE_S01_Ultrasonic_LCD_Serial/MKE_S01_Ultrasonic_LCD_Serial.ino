@@ -1,5 +1,5 @@
-// Thêm bộ thư viện LCD.
-// Add the LCD library.
+// Thêm bộ thư viện.
+// Add the library.
 #include <MKL_LiquidCrystal_I2C.h>
 #include <MKL_HCSR04.h>
 
@@ -14,7 +14,7 @@ MKL_LiquidCrystal_I2C lcd(0x27, 16, 2);
 MKL_HCSR04 ultra(TRIG_PIN, ECHO_PIN);
 
 // Tạo biến số nguyên lưu giá trị cảm biến
-// value read from the pot
+// value read from the sensor
 int sensorValue = 0;  
 
 void setup()
@@ -31,8 +31,8 @@ void setup()
 
 void loop()
 {
-    // Đọc giá trị cảm biến
-  // read the analog in value:
+  // Đọc giá trị cảm biến
+  // read the sensor value:
   sensorValue = ultra.dist();
 
   //Gửi giá trị cảm biến lên LCD
